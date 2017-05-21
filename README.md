@@ -19,3 +19,5 @@ Self-Driving Car Engineer Nanodegree Program
     - eg. `./UnscentedKF ../data/obj_pose-laser-radar-synthetic-input.txt`
 
 
+## Result
+When the algorithm runs against "obj_pose-laser-radar-synthetic-input.txt", the positions that the algorithm outputs are compared to ground truth data. The px, py, vx, and vy RMSE are [ 0.075, 0.094, 0.36, 0.28] less than the values [.09, .10, .40, .30].
